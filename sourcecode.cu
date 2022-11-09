@@ -7,17 +7,17 @@
 // Run out of memory is possible due to two reasons: Expectation & Edge[2*n][2*n] array. Interactive gpu.
 // NOTE: change TW in generate_samples() for each problem.
 
-#define TotalRequests 120
-#define TotalVehicles 11
+#define TotalRequests 24
+#define TotalVehicles 3
 
-#define Start_Window 200//330
-#define End_Window 512//590
+#define Start_Window 330//200
+#define End_Window 590//512
 
-#define Str1 "./problems/general/pr05.txt"//a5-50.txt"
+#define Str1 "./problems/general/pr01.txt"
 #define DeclaredProblem Str1
 #define Defined_MaxTemperature 20
 
-#define ExpectedScenarios 20
+#define ExpectedScenarios 5
 #define DegreeofDynamism 0.5 //(0,1)
 
 #define Expectation 8500
